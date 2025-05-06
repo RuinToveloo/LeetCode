@@ -4,8 +4,4 @@
 
 using namespace std;
 
-int main() {
-    // Write C++ code here
-    cout << "Try programiz.pro" << endl;
-    return 0;
-}
+int main() { return 0; }
