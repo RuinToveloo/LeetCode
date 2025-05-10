@@ -51,6 +51,5 @@ int main() {
     vector<int> shifts = {3, 5, 9};
     string result = sol.shiftingLetters("abc", shifts);
     cout << "Result: " << result << endl;
-
     return 0;
 }
