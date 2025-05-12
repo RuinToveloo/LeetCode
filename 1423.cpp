@@ -55,8 +55,9 @@ class Solution {
 
 int main() {
     Solution sol;
+    int k = 3;
     vector<int> points = {1,2,3,4,5,6,1};
-    int result = sol.maxScore(points, 3);
+    int result = sol.maxScore(points, k);
     cout << "Result: " << result << endl;
 
     return 0;
