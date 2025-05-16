@@ -62,6 +62,5 @@ int main() {
     vector<int> weights = {1,2,3,4,5,6,7,8,9,10};
     int result = sol.shipWithinDays(weights, 5);
     cout << result << endl;
-
     return 0;
 }
