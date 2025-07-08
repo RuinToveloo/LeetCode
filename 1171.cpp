@@ -39,6 +39,17 @@ using namespace std;
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+struct ListNode {
+    int val;
+    ListNode *next;
+
+    ListNode(int num) {
+        val = num;
+        next = nullptr;
+    }
+};
+
 class Solution {
 public:
     ListNode* removeZeroSumSublists(ListNode* head) {
